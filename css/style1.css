@@ -166,7 +166,6 @@ header {
     margin-top: 3%;
     margin-bottom: 6%;
     font-weight: bold;
-    border:none;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -811,7 +810,6 @@ line-height: 1.2;
     border-radius: 23px;
     opacity: 1;
     color: white;
-    border: none;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
@@ -970,7 +968,7 @@ line-height: 1.2;
 /* section 5 */
 
 .section5 {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -1069,10 +1067,9 @@ input[type="submit"] {
     position: absolute;
     bottom: -52px;
     right: 15px;
-    width: 188px;
+    width: 188px;   
     height: 40px;
     font-size: 0.8rem;
-    border: none;
     background: #07ACE6 0% 0% no-repeat padding-box;
     border-radius: 23px;
     opacity: 1;
@@ -1118,7 +1115,7 @@ input[type="checkbox"]:checked + label span {
 
 @media (min-width:880px) {
     .section5 {
-        width: 100vw;
+        width: 100%;
         flex-direction: row;
         padding-left: 0;
         padding-right: 0;
